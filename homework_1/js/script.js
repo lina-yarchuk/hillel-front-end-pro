@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let name = prompt('What is your name?','');
+    const name = prompt('What is your name?','');
 
     alert('Hello, ' + name + '! How are you?');
 });
